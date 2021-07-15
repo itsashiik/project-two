@@ -1,6 +1,8 @@
+
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* start first section  */
 .header{
     display: flex;
     height: 677px;
@@ -33,6 +35,10 @@ h1{
 .fas{
     margin-left: 20px;
 }
+/* end first section  */
+
+/* start players */
+
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -53,6 +59,8 @@ h1{
     padding-left: 10px;
     padding-bottom: 20px;
 }
+/* end player */
+
 .bonus-part{
     background-color: seashell;
     padding: 50px 0px;
@@ -98,4 +106,10 @@ footer{
 }
 footer img{
     width: 80%;
+}
+
+@media only screen and (max-width) {
+    .half-width{
+        width: 25%;
+    }
 }
